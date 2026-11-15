@@ -76,5 +76,6 @@ La inspección se hizo en dos momentos. Primero, como autor, se leyó el código
 | Total de problemas | 6 | [1] |
 
 **Qué queda abierto y por qué:** la advertencia de no-console (H-04) se mantiene a propósito, porque el console.log está ligado a H-06 y a S-04. Los hallazgos H-05 a H-08 no los detecta ESLint y siguen pendientes de confirmar con el negocio.
+La advertencia pasó de la línea 4:25 a la 7:5 porque al agregar las llaves el código se desplazó, pero es el mismo console.log.
 
 **Efecto funcional de H-02:** el cambio de == a === hace que un esVip con valor 1 (número) deje de contarse como VIP. Es coherente con RF-02, pero es un cambio de comportamiento que debe confirmarse con el negocio.
