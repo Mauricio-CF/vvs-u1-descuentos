@@ -1,0 +1,10 @@
+
+> vvs-u1-descuentos@1.0.0 lint
+> eslint src
+
+
+/Users/macbookproi9-32-1tb/Documents/UNIVERSIDAD POLITECNICA SALESIANA/SEXTO SEMESTRE/VERIFICACIÓN Y VALIDACIÓN DE SOFTWARE/UNIDAD 1/vvs-u1-descuentos/src/descuentos.js
+  7:5  warning  Unexpected console statement  no-console
+
+✖ 1 problem (0 errors, 1 warning)
+
